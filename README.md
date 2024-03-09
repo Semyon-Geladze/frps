@@ -96,9 +96,5 @@ docker restart frps
 ```
 
 ## 链接
-- Blog [www.ioiox.com](https://www.ioiox.com)
-- GitHub [stilleshan/frps](https://github.com/stilleshan/frps)
-- Docker Hub [stilleshan/frps](https://hub.docker.com/r/stilleshan/frps)
-- Docker [docker.ioiox.com](https://docker.ioiox.com)
 - 原版frp项目 [fatedier/frp](https://github.com/fatedier/frp)
 - [CentOS 7 安装配置frp内网穿透服务器端教程](https://www.ioiox.com/archives/5.html)
