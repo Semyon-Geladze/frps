@@ -7,7 +7,6 @@
 > *docker image support for X86 and ARM*
 
 ## 更新
-- **2021-05-31** 更新国内镜像方便使用
 - **2021-05-31** 更新 Linux 一键安装脚本同时支持 X86 和 ARM
 - **2021-05-29** 更新从`0.36.2`版本起 docker 镜像同时支持 X86 和 ARM
 
@@ -17,9 +16,7 @@
 ### 一键脚本(先执行脚本,在自行修改 frps.ini 文件.)
 安装
 ```shell
-wget https://raw.githubusercontent.com/stilleshan/frps/master/frps_linux_install.sh && chmod +x frps_linux_install.sh && ./frps_linux_install.sh
-# 以下为国内镜像
-wget https://github.ioiox.com/stilleshan/frps/raw/branch/master/frps_linux_install.sh && chmod +x frps_linux_install.sh && ./frps_linux_install.sh
+wget https://raw.githubusercontent.com/Semyon-Geladze/frps/master/frps_linux_install.sh && chmod +x frps_linux_install.sh && ./frps_linux_install.sh
 ```
 
 使用
@@ -32,9 +29,7 @@ sudo systemctl restart frps
 
 卸载
 ```shell
-wget https://raw.githubusercontent.com/stilleshan/frps/master/frps_linux_uninstall.sh && chmod +x frps_linux_uninstall.sh && ./frps_linux_uninstall.sh
-# 以下为国内镜像
-wget https://github.ioiox.com/stilleshan/frps/raw/branch/master/frps_linux_uninstall.sh && chmod +x frps_linux_uninstall.sh && ./frps_linux_uninstall.sh
+wget https://raw.githubusercontent.com/Semyon-Geladze/frps/master/frps_linux_uninstall.sh && chmod +x frps_linux_uninstall.sh && ./frps_linux_uninstall.sh
 ```
 
 ### 自定义一键脚本(先 fork 本仓库,在自行修改 frps.ini 文件后执行脚本.)
@@ -46,17 +41,17 @@ wget https://github.ioiox.com/stilleshan/frps/raw/branch/master/frps_linux_unins
 
 #### 修改 frps_linux_install.sh 脚本
 `FRP_VERSION=0.51.3` 可根据原版项目更新自行修改为最新版本.  
-`REPO=stilleshan/frps` 由于 **fork** 到你自己的仓库,需修改`stilleshan`为你的 GitHub 账号ID.
+`REPO=stilleshan/frps` 由于 **fork** 到你自己的仓库,需修改`Semyon-Geladze`为你的 GitHub 账号ID.
 
 #### 执行一键脚本
-修改以下脚本链接中的`stilleshan`为你的 GitHub 账号 ID 后,执行即可.
+修改以下脚本链接中的`Semyon-Geladze`为你的 GitHub 账号 ID 后,执行即可.
 ```shell
-wget https://raw.githubusercontent.com/stilleshan/frps/master/frps_linux_install.sh && chmod +x frps_linux_install.sh && ./frps_linux_install.sh
+wget https://raw.githubusercontent.com/Semyon-Geladze/frps/master/frps_linux_install.sh && chmod +x frps_linux_install.sh && ./frps_linux_install.sh
 ```
 #### 卸载脚本
 frps_linux_uninstall.sh 卸载脚本为通用脚本,可直接执行,也可同上方式修改链接后执行.
 ```shell
-wget https://raw.githubusercontent.com/stilleshan/frps/master/frps_linux_uninstall.sh && chmod +x frps_linux_uninstall.sh && ./frps_linux_uninstall.sh
+wget https://raw.githubusercontent.com/Semyon-Geladze/frps/master/frps_linux_uninstall.sh && chmod +x frps_linux_uninstall.sh && ./frps_linux_uninstall.sh
 ```
 
 ### frps相关命令
