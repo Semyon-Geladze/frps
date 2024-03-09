@@ -73,10 +73,8 @@ sudo systemctl stop frps
 
 先 **git clone** 本仓库,并正确配置 **frps.ini** 文件.
 ```shell
-git clone https://github.com/stilleshan/frps
+git clone https://github.com/Semyon-Geladze/frps
 # git clone 本仓库
-git clone https://github.ioiox.com/stilleshan/frps
-# 国内镜像
 vi /root/frps/frps.ini
 # 配置 frps.ini 文件
 ```
